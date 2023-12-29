@@ -1,0 +1,212 @@
+* {}
+
+body {}
+
+.calender-container {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(0deg, rgba(136, 154, 182, 0.15), rgba(136, 154, 182, 0.15)),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  overflow: auto;
+
+}
+
+.codyhouse {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 80px;
+  color: #032f81;
+  width: 479px;
+}
+
+.day-List {
+  list-style: none;
+}
+
+.day-List li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.day-List li:first-child {
+  font-size: x-large;
+
+}
+
+.day-List li:last-child {
+  font-size: x-large;
+}
+
+.month-year {
+  padding: 3px 0px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.date-card {
+  font-size: small;
+  line-height: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+
+
+}
+
+.red-line-box {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 345px;
+}
+
+.red-line-text {
+  width: 65px;
+  position: absolute;
+  color: red;
+  font-size: small;
+  font-weight: bold;
+  text-align: right;
+}
+
+.red-line {
+  width: 100%;
+  margin-left: 76px;
+}
+
+.red-line hr {
+  opacity: 1;
+  color: red;
+}
+
+.data-card-active {
+  background: white;
+}
+
+.card-body {
+  padding: 5px 1em !important;
+}
+
+.timeline {
+  float: left;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-right: 10px;
+}
+
+.timeline ul li {
+  list-style: none;
+  padding-top: 45px;
+  font-size: small;
+  font-weight: bold;
+  color: #938f8f;
+}
+
+table thead tr:first-child {
+  border-top: none;
+}
+
+table thead tr th {
+  width: 200px;
+  height: 25px;
+  color: #938f8f;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+table tr:nth-child(odd) {
+  border-top: 2px solid #ccc;
+}
+
+table tbody tr:nth-child(even) {
+  border-top: 1px solid;
+}
+table thead tr th {
+  min-width: 150px !important;
+  height: 35px;
+  color: #938f8f;
+}
+table tbody tr td {
+  min-width: 150px !important;
+  height: 35px;
+  color: #938f8f;
+}
+
+table tr th:first-child {
+  border-left: none;
+}
+
+table tr th:last-child {
+  border-right: none;
+}
+
+table tr td:first-child {
+  border-left: none;
+}
+
+table tr td:last-child {
+  border-right: none;
+}
+
+table tr td {
+  padding: 0px !important;
+  text-align: center;
+
+}
+
+.table-time-slot-card {
+  width: 80%;
+  background: #dbdfe14a;
+  padding: 5px;
+  border-left: 4px solid red;
+  color: #032f81;
+  font-size: small;
+  font-weight: bold;
+  border-top-right-radius: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.table-title-slot-card {
+  width: 80%;
+  background: #dbdfe14a;
+  padding: 5px;
+  border-left: 4px solid #f3e140;
+  color: #185fe3;
+  font-size: small;
+  font-weight: bold;
+  border-bottom-right-radius: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-slote-number {
+  background: #032f82b8;
+  border-radius: 13px;
+  width: 35px;
+  text-align: center;
+  color: #fff;
+}
+
+.table-arrow-icon {
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table tr th {
+  text-align: center;
+}
